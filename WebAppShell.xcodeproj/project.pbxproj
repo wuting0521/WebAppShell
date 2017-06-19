@@ -15,6 +15,32 @@
 		00712CDC1EF7B0A300A30777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00712CDA1EF7B0A300A30777 /* LaunchScreen.storyboard */; };
 		00712CE71EF7B0A300A30777 /* WebAppShellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712CE61EF7B0A300A30777 /* WebAppShellTests.m */; };
 		00712CF21EF7B0A300A30777 /* WebAppShellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712CF11EF7B0A300A30777 /* WebAppShellUITests.m */; };
+		00712D401EF7B0FC00A30777 /* GCDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D361EF7B0FC00A30777 /* GCDHelper.m */; };
+		00712D411EF7B0FC00A30777 /* PairValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D381EF7B0FC00A30777 /* PairValue.m */; };
+		00712D421EF7B0FC00A30777 /* SafeTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D3A1EF7B0FC00A30777 /* SafeTimer.m */; };
+		00712D431EF7B0FC00A30777 /* YYUtility+App.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D3B1EF7B0FC00A30777 /* YYUtility+App.m */; };
+		00712D441EF7B0FC00A30777 /* YYUtility+Carrier.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D3C1EF7B0FC00A30777 /* YYUtility+Carrier.m */; };
+		00712D451EF7B0FC00A30777 /* YYUtility+Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D3D1EF7B0FC00A30777 /* YYUtility+Device.m */; };
+		00712D461EF7B0FC00A30777 /* YYUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D3F1EF7B0FC00A30777 /* YYUtility.m */; };
+		00712D491EF7B13300A30777 /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D481EF7B13300A30777 /* AppConfig.m */; };
+		00712D581EF7D47900A30777 /* CommonLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D4C1EF7D47900A30777 /* CommonLog.m */; };
+		00712D5A1EF7D47900A30777 /* YYLoggerFileCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D511EF7D47900A30777 /* YYLoggerFileCompress.m */; };
+		00712D5B1EF7D47900A30777 /* YYLoggerInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D531EF7D47900A30777 /* YYLoggerInternal.m */; };
+		00712D5C1EF7D47900A30777 /* YYLoggerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D551EF7D47900A30777 /* YYLoggerManager.m */; };
+		00712D5D1EF7D47900A30777 /* YYLoggerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D571EF7D47900A30777 /* YYLoggerUtil.m */; };
+		00712D6A1EF7D6A200A30777 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D611EF7D6A200A30777 /* NSArray+Safe.m */; };
+		00712D6B1EF7D6A200A30777 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D631EF7D6A200A30777 /* NSDictionary+Safe.m */; };
+		00712D6C1EF7D6A200A30777 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D651EF7D6A200A30777 /* NSMutableArray+Safe.m */; };
+		00712D6D1EF7D6A200A30777 /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D671EF7D6A200A30777 /* NSMutableDictionary+Safe.m */; };
+		00712D6E1EF7D6A200A30777 /* NSString+SafeSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D691EF7D6A200A30777 /* NSString+SafeSubstring.m */; };
+		00712D721EF7D6EA00A30777 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D711EF7D6EA00A30777 /* UIView+Toast.m */; };
+		00712D7D1EF7D9C900A30777 /* ZipUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D7C1EF7D9C900A30777 /* ZipUtil.m */; };
+		00712D811EF7D9F000A30777 /* CommonFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D801EF7D9F000A30777 /* CommonFileUtils.m */; };
+		00712D851EF7DA4700A30777 /* UIColor+ColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D841EF7DA4700A30777 /* UIColor+ColorUtil.m */; };
+		00712D871EF7DEE700A30777 /* YYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D861EF7DEE700A30777 /* YYLogger.m */; };
+		19C5A5C0E357B75F19D6A4EC /* libPods-WebAppShellTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DED222C64B2BB851AB35A27 /* libPods-WebAppShellTests.a */; };
+		753EDC16C190DDE09C24F36F /* libPods-WebAppShellUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2E0521DFB878BB18FFA23A /* libPods-WebAppShellUITests.a */; };
+		ED21CAD8A8AF0C6207607357 /* libPods-WebAppShell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D016988FA2C7975D283DA9 /* libPods-WebAppShell.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +77,60 @@
 		00712CED1EF7B0A300A30777 /* WebAppShellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebAppShellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00712CF11EF7B0A300A30777 /* WebAppShellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebAppShellUITests.m; sourceTree = "<group>"; };
 		00712CF31EF7B0A300A30777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00712D341EF7B0FC00A30777 /* CarrierIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarrierIdentifier.h; sourceTree = "<group>"; };
+		00712D351EF7B0FC00A30777 /* GCDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDHelper.h; sourceTree = "<group>"; };
+		00712D361EF7B0FC00A30777 /* GCDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDHelper.m; sourceTree = "<group>"; };
+		00712D371EF7B0FC00A30777 /* PairValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PairValue.h; sourceTree = "<group>"; };
+		00712D381EF7B0FC00A30777 /* PairValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PairValue.m; sourceTree = "<group>"; };
+		00712D391EF7B0FC00A30777 /* SafeTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeTimer.h; sourceTree = "<group>"; };
+		00712D3A1EF7B0FC00A30777 /* SafeTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeTimer.m; sourceTree = "<group>"; };
+		00712D3B1EF7B0FC00A30777 /* YYUtility+App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYUtility+App.m"; sourceTree = "<group>"; };
+		00712D3C1EF7B0FC00A30777 /* YYUtility+Carrier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYUtility+Carrier.m"; sourceTree = "<group>"; };
+		00712D3D1EF7B0FC00A30777 /* YYUtility+Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYUtility+Device.m"; sourceTree = "<group>"; };
+		00712D3E1EF7B0FC00A30777 /* YYUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYUtility.h; sourceTree = "<group>"; };
+		00712D3F1EF7B0FC00A30777 /* YYUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYUtility.m; sourceTree = "<group>"; };
+		00712D471EF7B13300A30777 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppConfig.h; path = AppConfig/AppConfig.h; sourceTree = "<group>"; };
+		00712D481EF7B13300A30777 /* AppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppConfig.m; path = AppConfig/AppConfig.m; sourceTree = "<group>"; };
+		00712D4B1EF7D47900A30777 /* CommonLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLog.h; sourceTree = "<group>"; };
+		00712D4C1EF7D47900A30777 /* CommonLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonLog.m; sourceTree = "<group>"; };
+		00712D4F1EF7D47900A30777 /* LogDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogDefine.h; sourceTree = "<group>"; };
+		00712D501EF7D47900A30777 /* YYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLogger.h; sourceTree = "<group>"; };
+		00712D511EF7D47900A30777 /* YYLoggerFileCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLoggerFileCompress.m; sourceTree = "<group>"; };
+		00712D521EF7D47900A30777 /* YYLoggerInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLoggerInternal.h; sourceTree = "<group>"; };
+		00712D531EF7D47900A30777 /* YYLoggerInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLoggerInternal.m; sourceTree = "<group>"; };
+		00712D541EF7D47900A30777 /* YYLoggerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLoggerManager.h; sourceTree = "<group>"; };
+		00712D551EF7D47900A30777 /* YYLoggerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLoggerManager.m; sourceTree = "<group>"; };
+		00712D561EF7D47900A30777 /* YYLoggerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLoggerUtil.h; sourceTree = "<group>"; };
+		00712D571EF7D47900A30777 /* YYLoggerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLoggerUtil.m; sourceTree = "<group>"; };
+		00712D5E1EF7D51200A30777 /* YYLoggerFileCompress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYLoggerFileCompress.h; sourceTree = "<group>"; };
+		00712D601EF7D6A200A30777 /* NSArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		00712D611EF7D6A200A30777 /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		00712D621EF7D6A200A30777 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		00712D631EF7D6A200A30777 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		00712D641EF7D6A200A30777 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
+		00712D651EF7D6A200A30777 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
+		00712D661EF7D6A200A30777 /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
+		00712D671EF7D6A200A30777 /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
+		00712D681EF7D6A200A30777 /* NSString+SafeSubstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SafeSubstring.h"; sourceTree = "<group>"; };
+		00712D691EF7D6A200A30777 /* NSString+SafeSubstring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SafeSubstring.m"; sourceTree = "<group>"; };
+		00712D701EF7D6EA00A30777 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		00712D711EF7D6EA00A30777 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		00712D7B1EF7D9C900A30777 /* ZipUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipUtil.h; sourceTree = "<group>"; };
+		00712D7C1EF7D9C900A30777 /* ZipUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipUtil.m; sourceTree = "<group>"; };
+		00712D7F1EF7D9F000A30777 /* CommonFileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFileUtils.h; sourceTree = "<group>"; };
+		00712D801EF7D9F000A30777 /* CommonFileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonFileUtils.m; sourceTree = "<group>"; };
+		00712D831EF7DA4700A30777 /* UIColor+ColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorUtil.h"; sourceTree = "<group>"; };
+		00712D841EF7DA4700A30777 /* UIColor+ColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorUtil.m"; sourceTree = "<group>"; };
+		00712D861EF7DEE700A30777 /* YYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLogger.m; sourceTree = "<group>"; };
+		1C64EB414A454D5DEA32B7D7 /* Pods-WebAppShell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebAppShell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebAppShell/Pods-WebAppShell.debug.xcconfig"; sourceTree = "<group>"; };
+		2DED222C64B2BB851AB35A27 /* libPods-WebAppShellTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebAppShellTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D2FF9955FA6C2DFB447845 /* Pods-WebAppShellTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebAppShellTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebAppShellTests/Pods-WebAppShellTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B2E0521DFB878BB18FFA23A /* libPods-WebAppShellUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebAppShellUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1B9EA4C964DB937789358F /* Pods-WebAppShellTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebAppShellTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebAppShellTests/Pods-WebAppShellTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BFE237C33C2629749BC6C8D /* Pods-WebAppShellUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebAppShellUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebAppShellUITests/Pods-WebAppShellUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F84BB80B45682657247DAC1 /* Pods-WebAppShell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebAppShell.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebAppShell/Pods-WebAppShell.release.xcconfig"; sourceTree = "<group>"; };
+		D5D016988FA2C7975D283DA9 /* libPods-WebAppShell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebAppShell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8FB858F66F678C8A33D1499 /* Pods-WebAppShellUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebAppShellUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebAppShellUITests/Pods-WebAppShellUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED21CAD8A8AF0C6207607357 /* libPods-WebAppShell.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C5A5C0E357B75F19D6A4EC /* libPods-WebAppShellTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753EDC16C190DDE09C24F36F /* libPods-WebAppShellUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +168,8 @@
 				00712CE51EF7B0A300A30777 /* WebAppShellTests */,
 				00712CF01EF7B0A300A30777 /* WebAppShellUITests */,
 				00712CCA1EF7B0A300A30777 /* Products */,
+				643B7404930E68BB8877320F /* Pods */,
+				FF41934C98B3AC4DB70987B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +186,13 @@
 		00712CCB1EF7B0A300A30777 /* WebAppShell */ = {
 			isa = PBXGroup;
 			children = (
+				00712D821EF7DA3B00A30777 /* ColorUtil */,
+				00712D7E1EF7D9F000A30777 /* FileUtils */,
+				00712D7A1EF7D9C900A30777 /* Zip */,
+				00712D6F1EF7D6EA00A30777 /* Toast */,
+				00712D5F1EF7D6A200A30777 /* ObjectSafe */,
+				00712D4A1EF7D44E00A30777 /* Logger */,
+				00712D331EF7B0FC00A30777 /* YYUtility */,
 				00712CCF1EF7B0A300A30777 /* AppDelegate.h */,
 				00712CD01EF7B0A300A30777 /* AppDelegate.m */,
 				00712CD21EF7B0A300A30777 /* ViewController.h */,
@@ -110,6 +202,8 @@
 				00712CDA1EF7B0A300A30777 /* LaunchScreen.storyboard */,
 				00712CDD1EF7B0A300A30777 /* Info.plist */,
 				00712CCC1EF7B0A300A30777 /* Supporting Files */,
+				00712D471EF7B13300A30777 /* AppConfig.h */,
+				00712D481EF7B13300A30777 /* AppConfig.m */,
 			);
 			path = WebAppShell;
 			sourceTree = "<group>";
@@ -140,6 +234,121 @@
 			path = WebAppShellUITests;
 			sourceTree = "<group>";
 		};
+		00712D331EF7B0FC00A30777 /* YYUtility */ = {
+			isa = PBXGroup;
+			children = (
+				00712D341EF7B0FC00A30777 /* CarrierIdentifier.h */,
+				00712D351EF7B0FC00A30777 /* GCDHelper.h */,
+				00712D361EF7B0FC00A30777 /* GCDHelper.m */,
+				00712D371EF7B0FC00A30777 /* PairValue.h */,
+				00712D381EF7B0FC00A30777 /* PairValue.m */,
+				00712D391EF7B0FC00A30777 /* SafeTimer.h */,
+				00712D3A1EF7B0FC00A30777 /* SafeTimer.m */,
+				00712D3B1EF7B0FC00A30777 /* YYUtility+App.m */,
+				00712D3C1EF7B0FC00A30777 /* YYUtility+Carrier.m */,
+				00712D3D1EF7B0FC00A30777 /* YYUtility+Device.m */,
+				00712D3E1EF7B0FC00A30777 /* YYUtility.h */,
+				00712D3F1EF7B0FC00A30777 /* YYUtility.m */,
+			);
+			path = YYUtility;
+			sourceTree = "<group>";
+		};
+		00712D4A1EF7D44E00A30777 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				00712D4B1EF7D47900A30777 /* CommonLog.h */,
+				00712D4C1EF7D47900A30777 /* CommonLog.m */,
+				00712D4F1EF7D47900A30777 /* LogDefine.h */,
+				00712D501EF7D47900A30777 /* YYLogger.h */,
+				00712D861EF7DEE700A30777 /* YYLogger.m */,
+				00712D5E1EF7D51200A30777 /* YYLoggerFileCompress.h */,
+				00712D511EF7D47900A30777 /* YYLoggerFileCompress.m */,
+				00712D521EF7D47900A30777 /* YYLoggerInternal.h */,
+				00712D531EF7D47900A30777 /* YYLoggerInternal.m */,
+				00712D541EF7D47900A30777 /* YYLoggerManager.h */,
+				00712D551EF7D47900A30777 /* YYLoggerManager.m */,
+				00712D561EF7D47900A30777 /* YYLoggerUtil.h */,
+				00712D571EF7D47900A30777 /* YYLoggerUtil.m */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		00712D5F1EF7D6A200A30777 /* ObjectSafe */ = {
+			isa = PBXGroup;
+			children = (
+				00712D601EF7D6A200A30777 /* NSArray+Safe.h */,
+				00712D611EF7D6A200A30777 /* NSArray+Safe.m */,
+				00712D621EF7D6A200A30777 /* NSDictionary+Safe.h */,
+				00712D631EF7D6A200A30777 /* NSDictionary+Safe.m */,
+				00712D641EF7D6A200A30777 /* NSMutableArray+Safe.h */,
+				00712D651EF7D6A200A30777 /* NSMutableArray+Safe.m */,
+				00712D661EF7D6A200A30777 /* NSMutableDictionary+Safe.h */,
+				00712D671EF7D6A200A30777 /* NSMutableDictionary+Safe.m */,
+				00712D681EF7D6A200A30777 /* NSString+SafeSubstring.h */,
+				00712D691EF7D6A200A30777 /* NSString+SafeSubstring.m */,
+			);
+			path = ObjectSafe;
+			sourceTree = "<group>";
+		};
+		00712D6F1EF7D6EA00A30777 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				00712D701EF7D6EA00A30777 /* UIView+Toast.h */,
+				00712D711EF7D6EA00A30777 /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		00712D7A1EF7D9C900A30777 /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				00712D7B1EF7D9C900A30777 /* ZipUtil.h */,
+				00712D7C1EF7D9C900A30777 /* ZipUtil.m */,
+			);
+			path = Zip;
+			sourceTree = "<group>";
+		};
+		00712D7E1EF7D9F000A30777 /* FileUtils */ = {
+			isa = PBXGroup;
+			children = (
+				00712D7F1EF7D9F000A30777 /* CommonFileUtils.h */,
+				00712D801EF7D9F000A30777 /* CommonFileUtils.m */,
+			);
+			path = FileUtils;
+			sourceTree = "<group>";
+		};
+		00712D821EF7DA3B00A30777 /* ColorUtil */ = {
+			isa = PBXGroup;
+			children = (
+				00712D831EF7DA4700A30777 /* UIColor+ColorUtil.h */,
+				00712D841EF7DA4700A30777 /* UIColor+ColorUtil.m */,
+			);
+			path = ColorUtil;
+			sourceTree = "<group>";
+		};
+		643B7404930E68BB8877320F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C64EB414A454D5DEA32B7D7 /* Pods-WebAppShell.debug.xcconfig */,
+				9F84BB80B45682657247DAC1 /* Pods-WebAppShell.release.xcconfig */,
+				6C1B9EA4C964DB937789358F /* Pods-WebAppShellTests.debug.xcconfig */,
+				39D2FF9955FA6C2DFB447845 /* Pods-WebAppShellTests.release.xcconfig */,
+				D8FB858F66F678C8A33D1499 /* Pods-WebAppShellUITests.debug.xcconfig */,
+				9BFE237C33C2629749BC6C8D /* Pods-WebAppShellUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF41934C98B3AC4DB70987B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5D016988FA2C7975D283DA9 /* libPods-WebAppShell.a */,
+				2DED222C64B2BB851AB35A27 /* libPods-WebAppShellTests.a */,
+				3B2E0521DFB878BB18FFA23A /* libPods-WebAppShellUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +356,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00712CF61EF7B0A300A30777 /* Build configuration list for PBXNativeTarget "WebAppShell" */;
 			buildPhases = (
+				9975CF2958D82805D099B6BA /* [CP] Check Pods Manifest.lock */,
 				00712CC51EF7B0A300A30777 /* Sources */,
 				00712CC61EF7B0A300A30777 /* Frameworks */,
 				00712CC71EF7B0A300A30777 /* Resources */,
+				D2368BB54BCEC70319E757F8 /* [CP] Embed Pods Frameworks */,
+				EFE7B8372C80A209A5069BC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +376,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00712CF91EF7B0A300A30777 /* Build configuration list for PBXNativeTarget "WebAppShellTests" */;
 			buildPhases = (
+				1CB9EB7225C4D386CF1EC47F /* [CP] Check Pods Manifest.lock */,
 				00712CDE1EF7B0A300A30777 /* Sources */,
 				00712CDF1EF7B0A300A30777 /* Frameworks */,
 				00712CE01EF7B0A300A30777 /* Resources */,
+				46765D2E12F81517C3CFF712 /* [CP] Embed Pods Frameworks */,
+				7905925CE3E4F4B3857CCC66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +397,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00712CFC1EF7B0A300A30777 /* Build configuration list for PBXNativeTarget "WebAppShellUITests" */;
 			buildPhases = (
+				0F65219EFF455751C3F1F0CD /* [CP] Check Pods Manifest.lock */,
 				00712CE91EF7B0A300A30777 /* Sources */,
 				00712CEA1EF7B0A300A30777 /* Frameworks */,
 				00712CEB1EF7B0A300A30777 /* Resources */,
+				77E25DDDCBA22658350D0223 /* [CP] Embed Pods Frameworks */,
+				D430BDC736CAEFE6ABFE1E9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +489,175 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F65219EFF455751C3F1F0CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1CB9EB7225C4D386CF1EC47F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46765D2E12F81517C3CFF712 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebAppShellTests/Pods-WebAppShellTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77E25DDDCBA22658350D0223 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebAppShellUITests/Pods-WebAppShellUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7905925CE3E4F4B3857CCC66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebAppShellTests/Pods-WebAppShellTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9975CF2958D82805D099B6BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2368BB54BCEC70319E757F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebAppShell/Pods-WebAppShell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D430BDC736CAEFE6ABFE1E9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebAppShellUITests/Pods-WebAppShellUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE7B8372C80A209A5069BC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebAppShell/Pods-WebAppShell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00712CC51EF7B0A300A30777 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00712D461EF7B0FC00A30777 /* YYUtility.m in Sources */,
+				00712D5A1EF7D47900A30777 /* YYLoggerFileCompress.m in Sources */,
+				00712D6C1EF7D6A200A30777 /* NSMutableArray+Safe.m in Sources */,
+				00712D411EF7B0FC00A30777 /* PairValue.m in Sources */,
+				00712D5C1EF7D47900A30777 /* YYLoggerManager.m in Sources */,
+				00712D7D1EF7D9C900A30777 /* ZipUtil.m in Sources */,
+				00712D6B1EF7D6A200A30777 /* NSDictionary+Safe.m in Sources */,
+				00712D401EF7B0FC00A30777 /* GCDHelper.m in Sources */,
 				00712CD41EF7B0A300A30777 /* ViewController.m in Sources */,
 				00712CD11EF7B0A300A30777 /* AppDelegate.m in Sources */,
+				00712D6A1EF7D6A200A30777 /* NSArray+Safe.m in Sources */,
+				00712D5D1EF7D47900A30777 /* YYLoggerUtil.m in Sources */,
+				00712D581EF7D47900A30777 /* CommonLog.m in Sources */,
+				00712D5B1EF7D47900A30777 /* YYLoggerInternal.m in Sources */,
+				00712D721EF7D6EA00A30777 /* UIView+Toast.m in Sources */,
+				00712D871EF7DEE700A30777 /* YYLogger.m in Sources */,
+				00712D6D1EF7D6A200A30777 /* NSMutableDictionary+Safe.m in Sources */,
+				00712D491EF7B13300A30777 /* AppConfig.m in Sources */,
+				00712D851EF7DA4700A30777 /* UIColor+ColorUtil.m in Sources */,
+				00712D441EF7B0FC00A30777 /* YYUtility+Carrier.m in Sources */,
 				00712CCE1EF7B0A300A30777 /* main.m in Sources */,
+				00712D811EF7D9F000A30777 /* CommonFileUtils.m in Sources */,
+				00712D6E1EF7D6A200A30777 /* NSString+SafeSubstring.m in Sources */,
+				00712D421EF7B0FC00A30777 /* SafeTimer.m in Sources */,
+				00712D431EF7B0FC00A30777 /* YYUtility+App.m in Sources */,
+				00712D451EF7B0FC00A30777 /* YYUtility+Device.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,11 +806,13 @@
 		};
 		00712CF71EF7B0A300A30777 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C64EB414A454D5DEA32B7D7 /* Pods-WebAppShell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2DF7TAE5CB;
 				INFOPLIST_FILE = WebAppShell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = ting.wu.WebAppShell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -439,11 +820,13 @@
 		};
 		00712CF81EF7B0A300A30777 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F84BB80B45682657247DAC1 /* Pods-WebAppShell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2DF7TAE5CB;
 				INFOPLIST_FILE = WebAppShell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = ting.wu.WebAppShell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -451,6 +834,7 @@
 		};
 		00712CFA1EF7B0A300A30777 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1B9EA4C964DB937789358F /* Pods-WebAppShellTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 2DF7TAE5CB;
@@ -464,6 +848,7 @@
 		};
 		00712CFB1EF7B0A300A30777 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D2FF9955FA6C2DFB447845 /* Pods-WebAppShellTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 2DF7TAE5CB;
@@ -477,6 +862,7 @@
 		};
 		00712CFD1EF7B0A300A30777 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8FB858F66F678C8A33D1499 /* Pods-WebAppShellUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 2DF7TAE5CB;
 				INFOPLIST_FILE = WebAppShellUITests/Info.plist;
@@ -489,6 +875,7 @@
 		};
 		00712CFE1EF7B0A300A30777 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BFE237C33C2629749BC6C8D /* Pods-WebAppShellUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 2DF7TAE5CB;
 				INFOPLIST_FILE = WebAppShellUITests/Info.plist;
@@ -518,6 +905,7 @@
 				00712CF81EF7B0A300A30777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00712CF91EF7B0A300A30777 /* Build configuration list for PBXNativeTarget "WebAppShellTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +914,7 @@
 				00712CFB1EF7B0A300A30777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00712CFC1EF7B0A300A30777 /* Build configuration list for PBXNativeTarget "WebAppShellUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +923,7 @@
 				00712CFE1EF7B0A300A30777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
