@@ -1,0 +1,25 @@
+//
+//  WebAppShell.pch
+//  WebAppShell
+//
+//  Created by Wu Ting on 2017/6/25.
+//  Copyright © 2017年 wuting. All rights reserved.
+//
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+// 日志
+#import "CommonLog.h"
+#import "YYLogger.h"
+#import "LogDefine.h"
+
+#import "UIView+Loading.h"
+#import "UIColor+ColorUtil.h"
+
+#endif /* WebAppShell_pch */

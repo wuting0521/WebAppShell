@@ -6,7 +6,8 @@ target 'WebAppShell' do
   # use_frameworks!
   pod 'AFNetworking'
   pod 'ZipArchive'
-
+  pod 'KVOController'
+  
   # Pods for WebAppShell
 
   target 'WebAppShellTests' do

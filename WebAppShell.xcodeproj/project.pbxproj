@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		00712CCE1EF7B0A300A30777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712CCD1EF7B0A300A30777 /* main.m */; };
 		00712CD11EF7B0A300A30777 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712CD01EF7B0A300A30777 /* AppDelegate.m */; };
-		00712CD41EF7B0A300A30777 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712CD31EF7B0A300A30777 /* ViewController.m */; };
-		00712CD71EF7B0A300A30777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00712CD51EF7B0A300A30777 /* Main.storyboard */; };
 		00712CD91EF7B0A300A30777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00712CD81EF7B0A300A30777 /* Assets.xcassets */; };
 		00712CDC1EF7B0A300A30777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00712CDA1EF7B0A300A30777 /* LaunchScreen.storyboard */; };
 		00712CE71EF7B0A300A30777 /* WebAppShellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712CE61EF7B0A300A30777 /* WebAppShellTests.m */; };
@@ -38,6 +36,25 @@
 		00712D811EF7D9F000A30777 /* CommonFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D801EF7D9F000A30777 /* CommonFileUtils.m */; };
 		00712D851EF7DA4700A30777 /* UIColor+ColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D841EF7DA4700A30777 /* UIColor+ColorUtil.m */; };
 		00712D871EF7DEE700A30777 /* YYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00712D861EF7DEE700A30777 /* YYLogger.m */; };
+		008F65111EFF5645004FC579 /* NSURL+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 008F64F11EFF5645004FC579 /* NSURL+Parameters.m */; };
+		008F65121EFF5645004FC579 /* WABaseAPIReflectionImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 008F64F31EFF5645004FC579 /* WABaseAPIReflectionImpl.m */; };
+		008F65151EFF5645004FC579 /* WAUserInterfaceAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 008F64F91EFF5645004FC579 /* WAUserInterfaceAPI.m */; };
+		008F65181EFF5645004FC579 /* YYWebAppFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 008F65011EFF5645004FC579 /* YYWebAppFramework.m */; };
+		008F65191EFF5645004FC579 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 008F65031EFF5645004FC579 /* WebViewJavascriptBridge.js.txt */; };
+		008F651A1EFF5645004FC579 /* WebViewJavascriptBridgeAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = 008F65051EFF5645004FC579 /* WebViewJavascriptBridgeAbstract.m */; };
+		008F651B1EFF5645004FC579 /* YYWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008F65081EFF5645004FC579 /* YYWKWebView.m */; };
+		008F651C1EFF5645004FC579 /* YYWKWebViewAPI.js in Resources */ = {isa = PBXBuildFile; fileRef = 008F65091EFF5645004FC579 /* YYWKWebViewAPI.js */; };
+		008F651D1EFF5645004FC579 /* YYWKWebViewJSBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 008F650B1EFF5645004FC579 /* YYWKWebViewJSBridge.js */; };
+		008F651E1EFF5645004FC579 /* YYWKWebViewJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 008F650C1EFF5645004FC579 /* YYWKWebViewJSBridge.m */; };
+		008F651F1EFF5645004FC579 /* YYWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F650D1EFF5645004FC579 /* YYWebViewController.bundle */; };
+		008F65201EFF5645004FC579 /* YYWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008F650F1EFF5645004FC579 /* YYWKWebViewController.m */; };
+		008F65211EFF5645004FC579 /* YYWKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008F65101EFF5645004FC579 /* YYWKWebViewController.xib */; };
+		008F65291EFF5AB2004FC579 /* YYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008F65281EFF5AB2004FC579 /* YYViewController.m */; };
+		008F652F1EFF5C6E004FC579 /* UIViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 008F652E1EFF5C6E004FC579 /* UIViewUtils.m */; };
+		008F65321EFF5D52004FC579 /* UIViewController+YYViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 008F65311EFF5D52004FC579 /* UIViewController+YYViewControllers.m */; };
+		008F65351EFF5D83004FC579 /* UIView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 008F65341EFF5D83004FC579 /* UIView+Loading.m */; };
+		008F65381EFF5D9F004FC579 /* YYLoadingToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008F65371EFF5D9F004FC579 /* YYLoadingToastView.m */; };
+		008F653B1EFF5DF6004FC579 /* YYViewControllerCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 008F653A1EFF5DF6004FC579 /* YYViewControllerCenter.m */; };
 		19C5A5C0E357B75F19D6A4EC /* libPods-WebAppShellTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DED222C64B2BB851AB35A27 /* libPods-WebAppShellTests.a */; };
 		753EDC16C190DDE09C24F36F /* libPods-WebAppShellUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2E0521DFB878BB18FFA23A /* libPods-WebAppShellUITests.a */; };
 		ED21CAD8A8AF0C6207607357 /* libPods-WebAppShell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D016988FA2C7975D283DA9 /* libPods-WebAppShell.a */; };
@@ -65,9 +82,6 @@
 		00712CCD1EF7B0A300A30777 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00712CCF1EF7B0A300A30777 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		00712CD01EF7B0A300A30777 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		00712CD21EF7B0A300A30777 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		00712CD31EF7B0A300A30777 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		00712CD61EF7B0A300A30777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00712CD81EF7B0A300A30777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00712CDB1EF7B0A300A30777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00712CDD1EF7B0A300A30777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,6 +136,42 @@
 		00712D831EF7DA4700A30777 /* UIColor+ColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorUtil.h"; sourceTree = "<group>"; };
 		00712D841EF7DA4700A30777 /* UIColor+ColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorUtil.m"; sourceTree = "<group>"; };
 		00712D861EF7DEE700A30777 /* YYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLogger.m; sourceTree = "<group>"; };
+		008F64F01EFF5645004FC579 /* NSURL+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Parameters.h"; sourceTree = "<group>"; };
+		008F64F11EFF5645004FC579 /* NSURL+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Parameters.m"; sourceTree = "<group>"; };
+		008F64F21EFF5645004FC579 /* WABaseAPIReflectionImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WABaseAPIReflectionImpl.h; sourceTree = "<group>"; };
+		008F64F31EFF5645004FC579 /* WABaseAPIReflectionImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WABaseAPIReflectionImpl.m; sourceTree = "<group>"; };
+		008F64F81EFF5645004FC579 /* WAUserInterfaceAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAUserInterfaceAPI.h; sourceTree = "<group>"; };
+		008F64F91EFF5645004FC579 /* WAUserInterfaceAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAUserInterfaceAPI.m; sourceTree = "<group>"; };
+		008F64FA1EFF5645004FC579 /* WAUserInterfaceViewControllerInstantiable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAUserInterfaceViewControllerInstantiable.h; sourceTree = "<group>"; };
+		008F64FF1EFF5645004FC579 /* YYWebAppAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebAppAPI.h; sourceTree = "<group>"; };
+		008F65001EFF5645004FC579 /* YYWebAppFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebAppFramework.h; sourceTree = "<group>"; };
+		008F65011EFF5645004FC579 /* YYWebAppFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebAppFramework.m; sourceTree = "<group>"; };
+		008F65031EFF5645004FC579 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		008F65041EFF5645004FC579 /* WebViewJavascriptBridgeAbstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeAbstract.h; sourceTree = "<group>"; };
+		008F65051EFF5645004FC579 /* WebViewJavascriptBridgeAbstract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeAbstract.m; sourceTree = "<group>"; };
+		008F65071EFF5645004FC579 /* YYWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWKWebView.h; sourceTree = "<group>"; };
+		008F65081EFF5645004FC579 /* YYWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWKWebView.m; sourceTree = "<group>"; };
+		008F65091EFF5645004FC579 /* YYWKWebViewAPI.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = YYWKWebViewAPI.js; sourceTree = "<group>"; };
+		008F650A1EFF5645004FC579 /* YYWKWebViewJSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWKWebViewJSBridge.h; sourceTree = "<group>"; };
+		008F650B1EFF5645004FC579 /* YYWKWebViewJSBridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = YYWKWebViewJSBridge.js; sourceTree = "<group>"; };
+		008F650C1EFF5645004FC579 /* YYWKWebViewJSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWKWebViewJSBridge.m; sourceTree = "<group>"; };
+		008F650D1EFF5645004FC579 /* YYWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YYWebViewController.bundle; sourceTree = "<group>"; };
+		008F650E1EFF5645004FC579 /* YYWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWKWebViewController.h; sourceTree = "<group>"; };
+		008F650F1EFF5645004FC579 /* YYWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWKWebViewController.m; sourceTree = "<group>"; };
+		008F65101EFF5645004FC579 /* YYWKWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYWKWebViewController.xib; sourceTree = "<group>"; };
+		008F65221EFF581A004FC579 /* WebAppShell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebAppShell-Prefix.pch"; sourceTree = "<group>"; };
+		008F65271EFF5AB2004FC579 /* YYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYViewController.h; sourceTree = "<group>"; };
+		008F65281EFF5AB2004FC579 /* YYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYViewController.m; sourceTree = "<group>"; };
+		008F652D1EFF5C6E004FC579 /* UIViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewUtils.h; sourceTree = "<group>"; };
+		008F652E1EFF5C6E004FC579 /* UIViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewUtils.m; sourceTree = "<group>"; };
+		008F65301EFF5D52004FC579 /* UIViewController+YYViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YYViewControllers.h"; sourceTree = "<group>"; };
+		008F65311EFF5D52004FC579 /* UIViewController+YYViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YYViewControllers.m"; sourceTree = "<group>"; };
+		008F65331EFF5D83004FC579 /* UIView+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Loading.h"; sourceTree = "<group>"; };
+		008F65341EFF5D83004FC579 /* UIView+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Loading.m"; sourceTree = "<group>"; };
+		008F65361EFF5D9F004FC579 /* YYLoadingToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLoadingToastView.h; sourceTree = "<group>"; };
+		008F65371EFF5D9F004FC579 /* YYLoadingToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLoadingToastView.m; sourceTree = "<group>"; };
+		008F65391EFF5DF6004FC579 /* YYViewControllerCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYViewControllerCenter.h; sourceTree = "<group>"; };
+		008F653A1EFF5DF6004FC579 /* YYViewControllerCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYViewControllerCenter.m; sourceTree = "<group>"; };
 		1C64EB414A454D5DEA32B7D7 /* Pods-WebAppShell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebAppShell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebAppShell/Pods-WebAppShell.debug.xcconfig"; sourceTree = "<group>"; };
 		2DED222C64B2BB851AB35A27 /* libPods-WebAppShellTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebAppShellTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D2FF9955FA6C2DFB447845 /* Pods-WebAppShellTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebAppShellTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebAppShellTests/Pods-WebAppShellTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -186,6 +236,8 @@
 		00712CCB1EF7B0A300A30777 /* WebAppShell */ = {
 			isa = PBXGroup;
 			children = (
+				008F65231EFF58F8004FC579 /* ViewController */,
+				008F64EE1EFF5645004FC579 /* WebViewController */,
 				00712D821EF7DA3B00A30777 /* ColorUtil */,
 				00712D7E1EF7D9F000A30777 /* FileUtils */,
 				00712D7A1EF7D9C900A30777 /* Zip */,
@@ -195,15 +247,13 @@
 				00712D331EF7B0FC00A30777 /* YYUtility */,
 				00712CCF1EF7B0A300A30777 /* AppDelegate.h */,
 				00712CD01EF7B0A300A30777 /* AppDelegate.m */,
-				00712CD21EF7B0A300A30777 /* ViewController.h */,
-				00712CD31EF7B0A300A30777 /* ViewController.m */,
-				00712CD51EF7B0A300A30777 /* Main.storyboard */,
 				00712CD81EF7B0A300A30777 /* Assets.xcassets */,
 				00712CDA1EF7B0A300A30777 /* LaunchScreen.storyboard */,
 				00712CDD1EF7B0A300A30777 /* Info.plist */,
 				00712CCC1EF7B0A300A30777 /* Supporting Files */,
 				00712D471EF7B13300A30777 /* AppConfig.h */,
 				00712D481EF7B13300A30777 /* AppConfig.m */,
+				008F65221EFF581A004FC579 /* WebAppShell-Prefix.pch */,
 			);
 			path = WebAppShell;
 			sourceTree = "<group>";
@@ -324,6 +374,79 @@
 				00712D841EF7DA4700A30777 /* UIColor+ColorUtil.m */,
 			);
 			path = ColorUtil;
+			sourceTree = "<group>";
+		};
+		008F64EE1EFF5645004FC579 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				008F64EF1EFF5645004FC579 /* WebApI */,
+				008F65021EFF5645004FC579 /* WebViewJavascriptBridgeAbstract */,
+				008F65061EFF5645004FC579 /* WKWebView */,
+				008F650D1EFF5645004FC579 /* YYWebViewController.bundle */,
+				008F650E1EFF5645004FC579 /* YYWKWebViewController.h */,
+				008F650F1EFF5645004FC579 /* YYWKWebViewController.m */,
+				008F65101EFF5645004FC579 /* YYWKWebViewController.xib */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		008F64EF1EFF5645004FC579 /* WebApI */ = {
+			isa = PBXGroup;
+			children = (
+				008F64F01EFF5645004FC579 /* NSURL+Parameters.h */,
+				008F64F11EFF5645004FC579 /* NSURL+Parameters.m */,
+				008F64F21EFF5645004FC579 /* WABaseAPIReflectionImpl.h */,
+				008F64F31EFF5645004FC579 /* WABaseAPIReflectionImpl.m */,
+				008F64F81EFF5645004FC579 /* WAUserInterfaceAPI.h */,
+				008F64F91EFF5645004FC579 /* WAUserInterfaceAPI.m */,
+				008F64FA1EFF5645004FC579 /* WAUserInterfaceViewControllerInstantiable.h */,
+				008F64FF1EFF5645004FC579 /* YYWebAppAPI.h */,
+				008F65001EFF5645004FC579 /* YYWebAppFramework.h */,
+				008F65011EFF5645004FC579 /* YYWebAppFramework.m */,
+			);
+			path = WebApI;
+			sourceTree = "<group>";
+		};
+		008F65021EFF5645004FC579 /* WebViewJavascriptBridgeAbstract */ = {
+			isa = PBXGroup;
+			children = (
+				008F65031EFF5645004FC579 /* WebViewJavascriptBridge.js.txt */,
+				008F65041EFF5645004FC579 /* WebViewJavascriptBridgeAbstract.h */,
+				008F65051EFF5645004FC579 /* WebViewJavascriptBridgeAbstract.m */,
+			);
+			path = WebViewJavascriptBridgeAbstract;
+			sourceTree = "<group>";
+		};
+		008F65061EFF5645004FC579 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				008F65071EFF5645004FC579 /* YYWKWebView.h */,
+				008F65081EFF5645004FC579 /* YYWKWebView.m */,
+				008F65091EFF5645004FC579 /* YYWKWebViewAPI.js */,
+				008F650A1EFF5645004FC579 /* YYWKWebViewJSBridge.h */,
+				008F650B1EFF5645004FC579 /* YYWKWebViewJSBridge.js */,
+				008F650C1EFF5645004FC579 /* YYWKWebViewJSBridge.m */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
+		008F65231EFF58F8004FC579 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				008F65391EFF5DF6004FC579 /* YYViewControllerCenter.h */,
+				008F653A1EFF5DF6004FC579 /* YYViewControllerCenter.m */,
+				008F65361EFF5D9F004FC579 /* YYLoadingToastView.h */,
+				008F65371EFF5D9F004FC579 /* YYLoadingToastView.m */,
+				008F65331EFF5D83004FC579 /* UIView+Loading.h */,
+				008F65341EFF5D83004FC579 /* UIView+Loading.m */,
+				008F65301EFF5D52004FC579 /* UIViewController+YYViewControllers.h */,
+				008F65311EFF5D52004FC579 /* UIViewController+YYViewControllers.m */,
+				008F652D1EFF5C6E004FC579 /* UIViewUtils.h */,
+				008F652E1EFF5C6E004FC579 /* UIViewUtils.m */,
+				008F65271EFF5AB2004FC579 /* YYViewController.h */,
+				008F65281EFF5AB2004FC579 /* YYViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		643B7404930E68BB8877320F /* Pods */ = {
@@ -467,9 +590,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008F65191EFF5645004FC579 /* WebViewJavascriptBridge.js.txt in Resources */,
 				00712CDC1EF7B0A300A30777 /* LaunchScreen.storyboard in Resources */,
+				008F651D1EFF5645004FC579 /* YYWKWebViewJSBridge.js in Resources */,
+				008F65211EFF5645004FC579 /* YYWKWebViewController.xib in Resources */,
 				00712CD91EF7B0A300A30777 /* Assets.xcassets in Resources */,
-				00712CD71EF7B0A300A30777 /* Main.storyboard in Resources */,
+				008F651F1EFF5645004FC579 /* YYWebViewController.bundle in Resources */,
+				008F651C1EFF5645004FC579 /* YYWKWebViewAPI.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,28 +761,41 @@
 			files = (
 				00712D461EF7B0FC00A30777 /* YYUtility.m in Sources */,
 				00712D5A1EF7D47900A30777 /* YYLoggerFileCompress.m in Sources */,
+				008F65121EFF5645004FC579 /* WABaseAPIReflectionImpl.m in Sources */,
 				00712D6C1EF7D6A200A30777 /* NSMutableArray+Safe.m in Sources */,
 				00712D411EF7B0FC00A30777 /* PairValue.m in Sources */,
 				00712D5C1EF7D47900A30777 /* YYLoggerManager.m in Sources */,
+				008F65351EFF5D83004FC579 /* UIView+Loading.m in Sources */,
+				008F65381EFF5D9F004FC579 /* YYLoadingToastView.m in Sources */,
 				00712D7D1EF7D9C900A30777 /* ZipUtil.m in Sources */,
 				00712D6B1EF7D6A200A30777 /* NSDictionary+Safe.m in Sources */,
+				008F651E1EFF5645004FC579 /* YYWKWebViewJSBridge.m in Sources */,
 				00712D401EF7B0FC00A30777 /* GCDHelper.m in Sources */,
-				00712CD41EF7B0A300A30777 /* ViewController.m in Sources */,
 				00712CD11EF7B0A300A30777 /* AppDelegate.m in Sources */,
 				00712D6A1EF7D6A200A30777 /* NSArray+Safe.m in Sources */,
+				008F65201EFF5645004FC579 /* YYWKWebViewController.m in Sources */,
 				00712D5D1EF7D47900A30777 /* YYLoggerUtil.m in Sources */,
 				00712D581EF7D47900A30777 /* CommonLog.m in Sources */,
 				00712D5B1EF7D47900A30777 /* YYLoggerInternal.m in Sources */,
 				00712D721EF7D6EA00A30777 /* UIView+Toast.m in Sources */,
+				008F65291EFF5AB2004FC579 /* YYViewController.m in Sources */,
 				00712D871EF7DEE700A30777 /* YYLogger.m in Sources */,
 				00712D6D1EF7D6A200A30777 /* NSMutableDictionary+Safe.m in Sources */,
 				00712D491EF7B13300A30777 /* AppConfig.m in Sources */,
+				008F65151EFF5645004FC579 /* WAUserInterfaceAPI.m in Sources */,
 				00712D851EF7DA4700A30777 /* UIColor+ColorUtil.m in Sources */,
+				008F653B1EFF5DF6004FC579 /* YYViewControllerCenter.m in Sources */,
+				008F65111EFF5645004FC579 /* NSURL+Parameters.m in Sources */,
 				00712D441EF7B0FC00A30777 /* YYUtility+Carrier.m in Sources */,
+				008F651B1EFF5645004FC579 /* YYWKWebView.m in Sources */,
+				008F65181EFF5645004FC579 /* YYWebAppFramework.m in Sources */,
 				00712CCE1EF7B0A300A30777 /* main.m in Sources */,
 				00712D811EF7D9F000A30777 /* CommonFileUtils.m in Sources */,
+				008F652F1EFF5C6E004FC579 /* UIViewUtils.m in Sources */,
 				00712D6E1EF7D6A200A30777 /* NSString+SafeSubstring.m in Sources */,
+				008F65321EFF5D52004FC579 /* UIViewController+YYViewControllers.m in Sources */,
 				00712D421EF7B0FC00A30777 /* SafeTimer.m in Sources */,
+				008F651A1EFF5645004FC579 /* WebViewJavascriptBridgeAbstract.m in Sources */,
 				00712D431EF7B0FC00A30777 /* YYUtility+App.m in Sources */,
 				00712D451EF7B0FC00A30777 /* YYUtility+Device.m in Sources */,
 			);
@@ -693,14 +833,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		00712CD51EF7B0A300A30777 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00712CD61EF7B0A300A30777 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		00712CDA1EF7B0A300A30777 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -810,6 +942,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2DF7TAE5CB;
+				GCC_PREFIX_HEADER = "WebAppShell/WebAppShell-Prefix.pch";
 				INFOPLIST_FILE = WebAppShell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
@@ -824,6 +957,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2DF7TAE5CB;
+				GCC_PREFIX_HEADER = "WebAppShell/WebAppShell-Prefix.pch";
 				INFOPLIST_FILE = WebAppShell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;

@@ -226,10 +226,10 @@ static NSUInteger const MaxUploadLogFileSize     = 30 * (1<<20);    //上传日�
                        message:@"Version info : %@(%@_%@, BUILD %@), Channel: %@", [YYUtility appVersion],
                  [YYUtility svnVersion], [YYUtility buildType], [YYUtility appBuild],
                  [YYUtility getAppSource]];
-                [YYLogger info:TApp
-                       message:@"Device Info : Model:%@, SystemVersion:%@, DeviceID:%@, IDFV:%@, isJailbreak:%@",
-                 [YYUtility modelName], [YYUtility systemVersion], [YYUtility deviceID],
-                 [YYUtility identifierForVendor], @([YYUtility isBroken])];
+//                [YYLogger info:TApp
+//                       message:@"Device Info : Model:%@, SystemVersion:%@, DeviceID:%@, IDFV:%@, isJailbreak:%@",
+//                 [YYUtility modelName], [YYUtility systemVersion], [YYUtility deviceID],
+//                 [YYUtility identifierForVendor], @([YYUtility isBroken])];
                 
             }
         }

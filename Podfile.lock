@@ -14,16 +14,19 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - KVOController (1.2.0)
   - ZipArchive (1.4.0)
 
 DEPENDENCIES:
   - AFNetworking
+  - KVOController
   - ZipArchive
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
 
-PODFILE CHECKSUM: 0a59f3921e0f3b54227cdb599e0b5be6cd34a9aa
+PODFILE CHECKSUM: f76507805d5b1519322aa40cc477bfb71641f50b
 
 COCOAPODS: 1.2.0
