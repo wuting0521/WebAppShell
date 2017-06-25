@@ -56,6 +56,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.automaticallyAdjustsScrollViewInsets = NO;
     
     [self setupWebView];
     
@@ -610,6 +611,10 @@
 - (UIImage *)preferredNavigationBarShadowImage
 {
     return [UIImage new];
+}
+
+- (BOOL)preferredNavigationBarTranslucent {
+    return NO;
 }
 
 @end
