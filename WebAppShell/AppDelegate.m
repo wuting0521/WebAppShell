@@ -20,9 +20,8 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     YYWKWebViewController *root = [[YYWKWebViewController alloc] initWithAddress:@"https://google.com"];
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:root];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = navi;
+    self.window.rootViewController = root;
     
     [self.window makeKeyAndVisible];
     return YES;
